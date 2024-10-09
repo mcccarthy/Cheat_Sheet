@@ -1,0 +1,176 @@
+:root {
+  /* Base font size is now 10px (62.5% of 16px) */
+  font-size: 62.5%;
+
+  /* Colors */
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --neutral-color: #ecf0f1;
+
+  /* States */
+  --hover-color: #2980b9;
+  --visited-color: #8e44ad;
+  --active-color: #e67e22;
+
+  /* Typography */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Open Sans', sans-serif;
+  --heading-size: 3.5rem; /* 35px */
+  --subheading-size: 2.8rem; /* 28px */
+  --body-size: 2rem; /* 20px */
+
+  /* Spacing */
+  --space-small: 0.8rem; /* 8px */
+  --space-medium: 1.6rem; /* 16px */
+  --space-large: 2.4rem; /* 24px */
+
+  /* Borders */
+  --border-radius: 0.5rem; /* 5px */
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--neutral-color);
+  margin: var(--space-medium);
+
+}
+
+h1 {
+  font-size: var(--heading-size);
+  color: var(--primary-color);
+  margin-bottom: var(--space-medium);
+}
+
+h2 {
+  font-size: var(--subheading-size);
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: var(--body-size);
+  color: #333;
+  margin-bottom: var(--space-small);
+}
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+
+.color-box {
+  width: 10rem; /* 100px */
+  height: 10rem; /* 100px */
+  display: block;
+  margin-right: var(--space-small);
+  margin: 1rem 0;
+  border: 1px solid black;
+}
+
+.styled-link {
+  font-family: var(--font-secondary);
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: var(--body-size);
+  transition: color 0.3s ease;
+}
+
+.styled-link:hover {
+  color: var(--hover-color);
+}
+
+.styled-link:visited {
+  color: var(--visited-color);
+}
+
+.styled-link:active {
+  color: var(--active-color);
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: var(--primary-color);
+}
+.btn-primary:hover {
+  background-color: var(--hover-color);
+}
+.btn-primary:active {
+  background-color: var(--active-color);
+}
+.btn-primary:disabled {
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+.btn-secondary:hover {
+  background-color: var(--hover-color);
+}
+.btn-secondary:active {
+  background-color: var(--active-color);
+}
+.btn-secondary:disabled {
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+}
+
+/* Accent Button */
+.btn-accent {
+  background-color: var(--accent-color);
+}
+.btn-accent:hover {
+  background-color: var(--hover-color);
+}
+.btn-accent:active {
+  background-color: var(--active-color);
+}
+.btn-accent:disabled {
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+}
+
+/* Outline Button */
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.btn-outline:hover {
+  background-color: var(--hover-color);
+  color: white;
+}
+.btn-outline:active {
+  background-color: var(--active-color);
+  color: white;
+}
+.btn-outline:disabled {
+  border: 2px solid var(--disabled-color);
+  color: var(--disabled-color);
+  cursor: not-allowed;
+}
+
+/* Text Button */
+.btn-text {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+}
+.btn-text:hover {
+  color: var(--hover-color);
+}
+.btn-text:active {
+  color: var(--active-color);
+}
+.btn-text:disabled {
+  color: var(--disabled-color);
+  cursor: not-allowed;
+}
