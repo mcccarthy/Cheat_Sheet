@@ -4,36 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Design System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Merriweather:wght@400&family=Montserrat:wght@400&family=Raleway:wght@400&family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <h1>Design System</h1>
 
-  <!-- Colors -->
-  <h2>Colors</h2>
-  <div class="color-box" style="background-color: var(--primary-color);"></div> Primary Color (#3498db)
-  <div class="color-box" style="background-color: var(--secondary-color);"></div> Secondary Color (#2ecc71)
-  <div class="color-box" style="background-color: var(--accent-color);"></div> Accent Color (#e74c3c)
-  <div class="color-box" style="background-color: var(--neutral-color);"></div> Neutral Color (#ecf0f1)
+<!-- Colors -->
+ <div class="colors_container">
+        <h2>Colors</h2>
+        <div class="color-box" style="background-color: var(--primary-color);">
+        <span class="color-text">Primary Color (#3498db)</span>
+        </div>
+        <div class="color-box" style="background-color: var(--secondary-color);">
+        <span class="color-text">Secondary Color (#2ecc71)</span>
+        </div>
+        <div class="color-box" style="background-color: var(--accent-color);">
+        <span class="color-text">Accent Color (#e74c3c)</span>
+        </div>
+        <div class="color-box" style="background-color: var(--neutral-color);">
+        <span class="color-text">Neutral Color (#ecf0f1)</span>
+        </div>
+    </div>
+
+
 
   <!-- Typography -->
-  <h2>Typography</h2>
-  <p class="font-primary">This is primary font: Roboto</p>
-  <p class="font-secondary">This is secondary font: Open Sans</p>
 
-  <!-- Links -->
-  <h2>Links</h2>
-  <a href="#" class="styled-link">This is a link example</a>
+<h2>Typography</h2>
+<p class="font-primary">This is primary font: Roboto</p>
+<p class="font-secondary">This is secondary font: Open Sans</p>
+<p class="font-lato">This is Lato font example.</p>
+<p class="font-merriweather">This is Merriweather font example.</p>
+<p class="font-montserrat">This is Montserrat font example.</p>
+<p class="font-raleway">This is Raleway font example.</p>
+<p class="font-playfair">This is Playfair Display font example.</p>
+
+
+<!-- Links -->
+<h2>Links</h2>
+<a href="#" class="styled-link">Normal Link</a><br>
+<a href="#" class="styled-link visited">Visited Link</a><br>
+<a href="#" class="styled-link hover">Hover Link</a><br>
+<a href="#" class="styled-link active">Active Link</a><br>
+<a href="#" class="styled-link disabled" tabindex="-1">Disabled Link</a>
+
+
 
  <!-- Button Examples -->
  <h2>Button Examples</h2>
- <button class="btn btn-primary">Primary Button</button>
- <button class="btn btn-secondary">Secondary Button</button>
- <button class="btn btn-accent">Accent Button</button>
- <button class="btn btn-outline">Outline Button</button>
- <button class="btn btn-text">Text Button</button>
- <button class="btn btn-disabled" disabled>Disabled Button</button>
+ <div class="button_examples_container">
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+    <button class="btn btn-accent">Accent Button</button>
+    <button class="btn btn-outline">Outline Button</button>
+    <button class="btn btn-text">Text Button</button>
+    <button class="btn btn-disabled" disabled>Disabled Button</button>
+ </div>
+
 
 </body>
 </html>
