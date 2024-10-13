@@ -55,7 +55,6 @@
 
 This cheat sheet provides an overview of key concepts and methods used in RESTful APIs, making it a useful reference for developers working with APIs.
 
-
 Key Command
 Ctrl/Cmd + B Toggle bold
 Ctrl/Cmd + I Toggle italic

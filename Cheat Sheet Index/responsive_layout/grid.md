@@ -35,14 +35,13 @@
 
 | Property                  | Example                                                           |
 |---------------------------|-------------------------------------------------------------------|
-| **Shorthand for grid columns/rows** | `grid: auto / 1fr 1fr 1fr;` /* One row, three equal columns */ |
-| **Placing items in a grid** | `grid-column: 1 / span 2;` /* Start at column 1, span 2 columns */ <br> `grid-row: 1 / 3;` /* Start at row 1, end at row 3 */ |
-| **Shorthand for areas**   | ```css <br> grid-template-areas: <br> "header header" <br> "sidebar content"; <br> ``` |
+| **Shorthand for grid columns/rows** | `grid: auto / 1fr 1fr 1fr;` /*One row, three equal columns*/ |
+| **Placing items in a grid** | `grid-column: 1 / span 2;` /*Start at column 1, span 2 columns */ <br> `grid-row: 1 / 3;` /* Start at row 1, end at row 3*/ |
+| **Shorthand for areas**   | ```css <br> grid-template-areas: <br> "header header" <br> "sidebar content"; <br>``` |
 
 ---
 
 This covers key properties and shortcuts for **CSS Grid Layout**!
-
 
 Key Command
 Ctrl/Cmd + B Toggle bold

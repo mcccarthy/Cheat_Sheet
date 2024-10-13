@@ -75,7 +75,6 @@
 
 This **DevOps Cheat Sheet** provides a comprehensive overview of Docker, Kubernetes, CI/CD principles and tools, and Infrastructure as Code with Terraform.
 
-
 Key Command
 Ctrl/Cmd + B Toggle bold
 Ctrl/Cmd + I Toggle italic
