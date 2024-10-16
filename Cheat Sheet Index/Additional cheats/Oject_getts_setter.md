@@ -1,8 +1,3 @@
-Here’s a JavaScript cheat sheet for getters, setters,
-and the `this` keyword in Markdown format to help clarify
- their usage and scope:
-
-````markdown
 # JavaScript Getters, Setters, and `this` Cheat Sheet
 
 ## 1. Getters and Setters
@@ -10,10 +5,8 @@ and the `this` keyword in Markdown format to help clarify
 ### What are Getters and Setters?
 
 - **Getters**: Methods that get the value of a property.
-- **Setters**: Methods that set or update the value of a
-property.
-- They allow you to control access to an object’s
-properties, enabling validation or additional logic when getting or setting values.
+- **Setters**: Methods that set or update the value of a property.
+- They allow you to control access to an object’s properties, enabling validation or additional logic when getting or setting values.
 
 ### Defining Getters and Setters
 
@@ -42,7 +35,6 @@ console.log(person.fullName); // Output: John Doe
 person.fullName = 'Jane Smith';
 console.log(person.fullName); // Output: Jane Smith
 ```
-````
 
 ### Notes
 
@@ -50,7 +42,6 @@ console.log(person.fullName); // Output: Jane Smith
 - **Setter** methods take one parameter, representing the value you want to set.
 - `this` refers to the object the getter/setter is bound to.
 
----
 
 ## 2. The `this` Keyword
 
